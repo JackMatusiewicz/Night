@@ -22,3 +22,10 @@ module Control =
         let methodUint = toUint method
         let forceMethod = methodUint ||| 0x04
         ExitWindowsEx ((uint32 forceMethod), userDefinedShutdown)
+
+    let exitIfUserPresent (method : ExitMethod) (user : string) =
+        let currentUser = Environment.UserName
+        match currentUser.Contains user with
+        | false -> false
+        | true ->
+            exit method
