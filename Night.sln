@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Night", "Night\Night.fsproj", "{1C89DF95-B98B-4CA4-BF77-12A07E1023C9}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Watchman", "Watchman\Watchman.fsproj", "{CCD8855A-46A2-4708-AB0C-71AC7C3A8A1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{1C89DF95-B98B-4CA4-BF77-12A07E1023C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C89DF95-B98B-4CA4-BF77-12A07E1023C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C89DF95-B98B-4CA4-BF77-12A07E1023C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD8855A-46A2-4708-AB0C-71AC7C3A8A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD8855A-46A2-4708-AB0C-71AC7C3A8A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD8855A-46A2-4708-AB0C-71AC7C3A8A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD8855A-46A2-4708-AB0C-71AC7C3A8A1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
